@@ -207,15 +207,6 @@ rm backend-go/data/codesage.db
 
 ---
 
-## 📞 获取帮助
-
-遇到问题？查看:
-
-- [完整文档](authentication_setup.md)
-- [API 文档](backend-go/auth_api_documention.md)
-
----
-
 **祝你使用愉快！** 🎉
 
 ---
