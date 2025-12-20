@@ -226,8 +226,6 @@ except IOError as e:
 
 ### 配置文档
 
-- [认证系统配置](authentication_summary.md) - 用户认证详解
-- [GitHub OAuth 配置](github_oauth_setup.md) - OAuth 集成指南
 - [Kimi API 配置](kimi_api_setup.md) - AI 模型配置
 
 ### API 文档
