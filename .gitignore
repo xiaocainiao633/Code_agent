@@ -1,0 +1,337 @@
+# ===================================
+# CodeSage Project .gitignore
+# ===================================
+
+# ===================================
+# Operating System Files
+# ===================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===================================
+# IDE & Editor Files
+# ===================================
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains IDEs (IntelliJ, GoLand, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ===================================
+# Go Backend (backend-go)
+# ===================================
+
+# Binaries
+backend-go/bin/
+backend-go/*.exe
+backend-go/*.dll
+backend-go/*.so
+backend-go/*.dylib
+backend-go/main
+backend-go/server
+
+# Test binaries
+backend-go/*.test
+backend-go/*.out
+
+# Go workspace file
+backend-go/go.work
+
+# Dependency directories
+backend-go/vendor/
+
+# Database files
+backend-go/data/*.db
+backend-go/data/*.db-shm
+backend-go/data/*.db-wal
+
+# Log files
+backend-go/logs/*.log
+backend-go/logs/*.txt
+
+# Temporary files
+backend-go/temp/*
+!backend-go/temp/.gitkeep
+
+# Configuration files with secrets
+backend-go/configs/*.local.yaml
+backend-go/configs/*.secret.yaml
+
+# ===================================
+# Python AI Agent (backend-ai-agent)
+# ===================================
+
+# Python cache
+backend-ai-agent/__pycache__/
+backend-ai-agent/**/__pycache__/
+backend-ai-agent/*.py[cod]
+backend-ai-agent/**/*.py[cod]
+backend-ai-agent/*$py.class
+
+# Virtual environments
+backend-ai-agent/venv/
+backend-ai-agent/env/
+backend-ai-agent/.venv/
+backend-ai-agent/.env/
+backend-ai-agent/ENV/
+backend-ai-agent/env.bak/
+backend-ai-agent/venv.bak/
+
+# Environment variables
+backend-ai-agent/.env
+backend-ai-agent/.env.local
+
+# Distribution / packaging
+backend-ai-agent/dist/
+backend-ai-agent/build/
+backend-ai-agent/*.egg-info/
+backend-ai-agent/.eggs/
+
+# PyInstaller
+backend-ai-agent/*.spec
+
+# Unit test / coverage reports
+backend-ai-agent/htmlcov/
+backend-ai-agent/.tox/
+backend-ai-agent/.coverage
+backend-ai-agent/.coverage.*
+backend-ai-agent/.cache
+backend-ai-agent/nosetests.xml
+backend-ai-agent/coverage.xml
+backend-ai-agent/*.cover
+backend-ai-agent/.pytest_cache/
+
+# Jupyter Notebook
+backend-ai-agent/.ipynb_checkpoints
+
+# pyenv
+backend-ai-agent/.python-version
+
+# Celery
+backend-ai-agent/celerybeat-schedule
+backend-ai-agent/celerybeat.pid
+
+# mypy
+backend-ai-agent/.mypy_cache/
+backend-ai-agent/.dmypy.json
+backend-ai-agent/dmypy.json
+
+# Pyre type checker
+backend-ai-agent/.pyre/
+
+# ChromaDB
+backend-ai-agent/chroma_db/
+backend-ai-agent/chromadb/
+
+# Log files
+backend-ai-agent/logs/*.log
+backend-ai-agent/logs/*.txt
+backend-ai-agent/*.log
+
+# ===================================
+# Frontend
+# ===================================
+
+# Dependencies
+frontend/node_modules/
+
+# Production build
+frontend/dist/
+frontend/dist-ssr/
+
+# Local env files
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Log files
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+frontend/*.log
+
+# Editor directories and files
+frontend/.vscode/*
+!frontend/.vscode/extensions.json
+
+# Temporary files
+frontend/*.local
+
+# Test coverage
+frontend/coverage/
+
+# ===================================
+# Package Managers
+# ===================================
+
+# npm
+package-lock.json
+npm-debug.log*
+
+# Yarn
+yarn.lock
+yarn-debug.log*
+yarn-error.log*
+.yarn/
+.pnp.*
+
+# pnpm
+pnpm-lock.yaml
+.pnpm-debug.log*
+
+# ===================================
+# Build & Compilation
+# ===================================
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ===================================
+# Logs & Databases
+# ===================================
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# ===================================
+# Temporary & Cache Files
+# ===================================
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Cache directories
+.cache/
+*.cache
+
+# ===================================
+# Security & Secrets
+# ===================================
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Secret files
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+.secrets/
+
+# ===================================
+# Project Specific
+# ===================================
+
+# Uploaded files
+uploads/
+upload/
+
+# User data
+user_data/
+
+# Test data
+test_data/
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# ===================================
+# Git
+# ===================================
+
+# Git conflict files
+*.orig
+
+# ===================================
+# Miscellaneous
+# ===================================
+
+# Backup files
+*.backup
+*.old
+
+# Debug files
+debug.log
+debug/
+
+# TODO files
+TODO.md
+NOTES.md
