@@ -440,27 +440,6 @@ pytest
 
 ---
 
-## 📧 联系我们
-
-- **项目主页**: [GitHub](https://github.com/your-repo/codesage)
-- **问题反馈**: [Issues](https://github.com/your-repo/codesage/issues)
-- **邮箱**: support@codesage.dev
-- **文档**: [在线文档](https://docs.codesage.dev)
-
----
-
-## ⭐ Star History
-
-如果这个项目对你有帮助，请给我们一个 Star！
-
-[![Star History Chart](https://api.star-history.com/svg?repos=your-repo/codesage&type=Date)](https://star-history.com/#your-repo/codesage&Date)
-
----
-
-<div align="center">
-
-**Made with ❤️ by CodeSage Team**
-
 [⬆ 回到顶部](#codesage---智能代码重构与现代化助手)
 
 </div>
