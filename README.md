@@ -31,6 +31,10 @@ CodeSage 是一个**完全本地化、隐私安全**的 AI 驱动代码重构助
 
 ---
 
+<img width="2486" height="1407" alt="image" src="https://github.com/user-attachments/assets/6dc3f48d-4b00-4f9b-82db-3c1d43211ad8" />
+
+<img width="2539" height="1393" alt="image" src="https://github.com/user-attachments/assets/e0cd2919-f4b5-45d8-8c8c-7c2d5e858a83" />
+
 ## ✨ 功能特性
 
 ### 核心功能
