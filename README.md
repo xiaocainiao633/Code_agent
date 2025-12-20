@@ -90,19 +90,6 @@ CodeSage 是一个**完全本地化、隐私安全**的 AI 驱动代码重构助
 
 ### 一键启动
 
-#### Windows 用户
-
-```bash
-# 克隆项目
-git clone https://github.com/your-repo/codesage.git
-cd codesage
-
-# 运行启动脚本
-quick_start.bat
-```
-
-#### Linux/Mac 用户
-
 ```bash
 # 克隆项目
 git clone https://github.com/your-repo/codesage.git
