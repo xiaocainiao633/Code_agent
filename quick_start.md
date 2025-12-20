@@ -177,17 +177,6 @@ rm backend-go/data/codesage.db
 
 ---
 
-## 📚 下一步
-
-现在你已经成功启动了认证系统！接下来可以:
-
-1. 📖 阅读 [API 文档](backend-go/AUTH_API_DOCUMENTATION.md)
-2. 🔍 查看 [完整实现总结](AUTHENTICATION_SUMMARY.md)
-3. 🚀 查看 [部署指南](AUTHENTICATION_SETUP.md)
-4. 💻 开始开发你的功能
-
----
-
 ## 🎨 界面预览
 
 ### 登录页面
@@ -224,7 +213,6 @@ rm backend-go/data/codesage.db
 
 - [完整文档](AUTHENTICATION_SETUP.md)
 - [API 文档](backend-go/AUTH_API_DOCUMENTATION.md)
-- [实现总结](AUTHENTICATION_SUMMARY.md)
 
 ---
 
