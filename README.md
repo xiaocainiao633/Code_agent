@@ -1,4 +1,4 @@
-# CodeSage - 智能代码重构与现代化助手
+#        CodeSage - 智能代码重构与现代化助手
 
 <div align="center">
 
@@ -30,6 +30,10 @@ CodeSage 是一个**完全本地化、隐私安全**的 AI 驱动代码重构助
 - ⚡ **实时反馈**: WebSocket 实时通信，任务进度实时更新
 
 ---
+
+<img width="2486" height="1407" alt="image" src="https://github.com/user-attachments/assets/6dc3f48d-4b00-4f9b-82db-3c1d43211ad8" />
+
+<img width="2539" height="1393" alt="image" src="https://github.com/user-attachments/assets/e0cd2919-f4b5-45d8-8c8c-7c2d5e858a83" />
 
 ## ✨ 功能特性
 
@@ -82,22 +86,9 @@ CodeSage 是一个**完全本地化、隐私安全**的 AI 驱动代码重构助
 - **Node.js** 16 或更高版本
 - **Python** 3.10 或更高版本
 - **Git**
-- **Ollama** (可选，用于 AI 功能)
+- **Ollama** 
 
 ### 一键启动
-
-#### Windows 用户
-
-```bash
-# 克隆项目
-git clone https://github.com/your-repo/codesage.git
-cd codesage
-
-# 运行启动脚本
-quick_start.bat
-```
-
-#### Linux/Mac 用户
 
 ```bash
 # 克隆项目
@@ -235,8 +226,6 @@ except IOError as e:
 
 ### 配置文档
 
-- [认证系统配置](authentication_summary.md) - 用户认证详解
-- [GitHub OAuth 配置](github_oauth_setup.md) - OAuth 集成指南
 - [Kimi API 配置](kimi_api_setup.md) - AI 模型配置
 
 ### API 文档
@@ -439,27 +428,6 @@ pytest
 - [Monaco Editor](https://microsoft.github.io/monaco-editor/) - VS Code 编辑器核心
 
 ---
-
-## 📧 联系我们
-
-- **项目主页**: [GitHub](https://github.com/your-repo/codesage)
-- **问题反馈**: [Issues](https://github.com/your-repo/codesage/issues)
-- **邮箱**: support@codesage.dev
-- **文档**: [在线文档](https://docs.codesage.dev)
-
----
-
-## ⭐ Star History
-
-如果这个项目对你有帮助，请给我们一个 Star！
-
-[![Star History Chart](https://api.star-history.com/svg?repos=your-repo/codesage&type=Date)](https://star-history.com/#your-repo/codesage&Date)
-
----
-
-<div align="center">
-
-**Made with ❤️ by CodeSage Team**
 
 [⬆ 回到顶部](#codesage---智能代码重构与现代化助手)
 
